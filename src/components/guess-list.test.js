@@ -12,9 +12,5 @@ describe('<GuessList />', () => {
 
   });
 
-  it('should render the guesses', () => {
-    const testGuesses = [2, 3 , 5 ,6];
-    const wrapper = mount(<GuessList guesses={testGuesses} />);
-    expect(wrapper.find('ul').children()).to.have.length(testGuesses.length);
-  });
+  
 })
